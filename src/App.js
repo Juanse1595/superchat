@@ -79,7 +79,10 @@ function ChatRoom() {
       uid,
       photoURL
     });
+
     setFormValue('');
+
+    dummy.current.scrollIntoView({ behavior: 'smooth'});
   }
 
   return (
